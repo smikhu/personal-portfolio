@@ -4,14 +4,12 @@ import { NavbarContainer } from "./styles/Navbar.styled";
 const Navbar = () => {
   return (
     <NavbarContainer>
-        <nav>
-          <ul>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
+      <ul>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
     </NavbarContainer>
   );
 };
