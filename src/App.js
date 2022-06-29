@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { ThemeProvider } from "styled-components";
-import { GlobalStyles } from "./components/styles/Global";
+
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import Skills from "./components/Skills";
+
+import { GlobalStyles } from "./components/styles/Global";
+import { ThemeProvider } from "styled-components";
 
 const App = () => {
   return (
@@ -12,6 +15,8 @@ const App = () => {
       <Navbar />
 
       <About />
+
+      <Skills />
     </div>
   );
 };

@@ -5,7 +5,7 @@ export const NavbarContainer = styled.nav`
   padding: 25px 25px;
   background-color: orangered;
   border: 2px solid black;
-  color: #e1d9d1;
+  color: white;
   text-transform: uppercase;
   font-size: 20px;
 
