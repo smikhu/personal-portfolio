@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const SkillsContainer = styled.div`
   height: 100vh;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +17,7 @@ export const SkillsContainer = styled.div`
   .info {
     width: 900px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 `;
 
@@ -41,7 +40,7 @@ export const SkillsLeft = styled.div`
     margin: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     &:hover {
       transform: scale(1.1);
       background-color: orangered;
@@ -64,7 +63,7 @@ export const SkillsRight = styled.div`
     margin: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     &:hover {
       transform: scale(1.1);
       background-color: orangered;

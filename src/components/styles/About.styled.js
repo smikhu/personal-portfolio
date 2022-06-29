@@ -16,8 +16,8 @@ export const AboutContainer = styled.div`
 `;
 
 export const AboutInfo = styled.div`
-  padding: 0px 100px;
-  width: 850px;
+  padding: 0px 50px;
+  width: 650px;
 
   p {
     margin-top: 20px;

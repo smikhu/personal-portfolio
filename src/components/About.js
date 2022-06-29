@@ -1,10 +1,10 @@
-import pp1 from "../images/pp1.jpeg";
+import pp3 from "../images/pp3.jpeg";
 import { AboutContainer, AboutInfo } from "./styles/About.styled";
 
 const About = () => {
   return (
     <AboutContainer>
-      <img src={pp1} />
+      <img src={pp3} />
       <AboutInfo>
         <h2>Steven Mikhu</h2>
         <h4>Junior Full Stack Web Developer</h4>
