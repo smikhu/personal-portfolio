@@ -16,6 +16,7 @@ const About = () => {
           to code and is super passionate about what I do and enjoy learning new
           things while making it all look good.
         </p>
+        <a><button>RESUME</button></a>
       </AboutInfo>
     </AboutContainer>
   );

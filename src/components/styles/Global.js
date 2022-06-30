@@ -18,7 +18,7 @@ p {
 
 button {
     height: 35px;
-    width: 70px;
+    width: 100px;
     font-size: 20px;
     color: orangered;
     border: 2px solid orangered;

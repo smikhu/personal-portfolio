@@ -38,7 +38,6 @@ export const ProjectsLeft = styled.div`
   img {
     width: 100%;
     border-radius: 5px;
-    border: 2px solid black;
   }
 `;
 
@@ -55,6 +54,6 @@ export const ProjectsRight = styled.div`
   }
 
   .live {
-    margin: 20px;
+    margin: 10px;
   }
 `;

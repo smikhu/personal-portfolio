@@ -11,17 +11,36 @@ export const NavbarContainer = styled.nav`
   border: 2px solid black;
   color: white;
   text-transform: uppercase;
-  font-size: 20px;
+  text-align: center;
+  
+  img {
+    width: 50px;
+    height: 50px;
+  }
 
   ul {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     list-style: none;
     font-weight: bolder;
   }
 
   ul li {
+    margin-left: 50px;
     cursor: pointer;
+  }
+
+  .personal {
+    margin-left: auto;
+  }
+
+  .stone-img .stone-img-text {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s;
+  }
+
+  .stone-img:hover .stone-img-text {
+    visibility: visible;
+    opacity: 1;
   }
 `;
