@@ -4,7 +4,7 @@ export const NavbarContainer = styled.nav`
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 100;
   width: 100%;
   padding: 25px 25px;
   background-color: orangered;

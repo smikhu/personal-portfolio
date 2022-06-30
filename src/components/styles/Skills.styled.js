@@ -1,23 +1,16 @@
 import styled from "styled-components";
 
 export const SkillsContainer = styled.div`
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
-  padding: 150px;
+  padding: 100px;
 
   img {
     width: 50px;
     height: 50px;
-  }
-
-  .info {
-    width: 900px;
-    text-align: center;
-    margin-top: 20px;
   }
 `;
 
@@ -46,6 +39,7 @@ export const SkillsLeft = styled.div`
       background-color: orangered;
       color: white;
       box-shadow: 2px 2px 15px 0px black;
+      margin-right: 50px;
     }
   }
 `;

@@ -5,21 +5,16 @@ export const AboutContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
   margin: 10px;
 
   img {
     height: 375px;
     width: 300px;
-    border-radius: 45%;
+    border-radius: 25%;
   }
 `;
 
 export const AboutInfo = styled.div`
   padding: 0px 50px;
   width: 650px;
-
-  p {
-    margin-top: 20px;
-  }
 `;
