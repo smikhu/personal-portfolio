@@ -1,21 +1,38 @@
-import { ContactContainer } from "./styles/Contact.styled";
+import {
+  ContactContainer,
+  ContactButtons,
+  Footer,
+} from "./styles/Contact.styled";
 import { Header } from "./styles/Header.styled";
+
+import linkedin from "../images/linkedin.png";
+import gmail from "../images/gmail.png";
 
 const Contact = () => {
   return (
     <ContactContainer>
       <Header>
         <h1>CONTACT</h1>
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
+        <p className="description">
+          Want to get in contact with me about anything at all? Please feel free
+          to send an email or message me on LinkedIn!
         </p>
       </Header>
+      <ContactButtons>
+        <a href="mailto: StevenMikhu@gmail.com">
+          <p>
+            <img alt="gmail" src={gmail}></img>
+          </p>
+        </a>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.linkedin.com/in/stevenmikhu"
+        >
+          <img alt="linkedin" src={linkedin}></img>
+        </a>
+      </ContactButtons>
+      <Footer></Footer>
     </ContactContainer>
   );
 };
