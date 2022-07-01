@@ -7,6 +7,8 @@ import space from "../images/space.png";
 import power from "../images/power.png";
 import time from "../images/time.png";
 import mind from "../images/mind.png";
+import git from "../images/github.png";
+import linked from "../images/linkedin.png";
 
 const Navbar = () => {
   return (
@@ -31,11 +33,15 @@ const Navbar = () => {
 
         <li className="personal stone-img">
           <img src={mind} />
-          <figcaption className="stone-img-text">GitHub</figcaption>
+          <figcaption className="stone-img-text">
+            <img class="socials" src={git} />
+          </figcaption>
         </li>
         <li className="stone-img">
           <img src={reality} />
-          <figcaption className="stone-img-text">LinkedIn</figcaption>
+          <figcaption className="stone-img-text">
+            <img class="socials" src={linked} />
+          </figcaption>
         </li>
       </ul>
     </NavbarContainer>

@@ -1,6 +1,11 @@
 import styled from "styled-components";
+import ironman from "../../images/ironman.png";
 
 export const AboutContainer = styled.div`
+  height: 100vh;
+`;
+
+export const AboutCollection = styled.div`
   height: 80vh;
   display: flex;
   align-items: center;

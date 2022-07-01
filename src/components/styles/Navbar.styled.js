@@ -6,13 +6,13 @@ export const NavbarContainer = styled.nav`
   left: 0;
   z-index: 100;
   width: 100%;
-  padding: 25px 25px;
-  background-color: orangered;
+  padding: 18px 18px;
+  background-color: #ff8b00;
   border: 2px solid black;
   color: white;
   text-transform: uppercase;
   text-align: center;
-  
+
   img {
     width: 50px;
     height: 50px;
@@ -42,5 +42,10 @@ export const NavbarContainer = styled.nav`
   .stone-img:hover .stone-img-text {
     visibility: visible;
     opacity: 1;
+  }
+
+  .socials {
+    height: 25px;
+    width: 25px;
   }
 `;

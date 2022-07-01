@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 h1 {
-    color: orangered;
+    color: #FF8B00;
 }
 
 p {
@@ -20,13 +20,13 @@ button {
     height: 35px;
     width: 100px;
     font-size: 20px;
-    color: orangered;
-    border: 2px solid orangered;
+    color: #FF8B00;
+    border: 2px solid #FF8B00;
     border-radius: 3px;
     font-weight: 600;
     cursor: pointer;
     &:hover {
-        background-color: orangered;
+        background-color: #FF8B00;
         color: white;
         transition: all .2s;
     }

@@ -1,15 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-  height: 100vh;
-`;
-
-export const ProjectsInfo = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* padding: 50px; */
+  /* height: 100vh; */
 `;
 
 export const ProjectsCollection = styled.div`
@@ -19,21 +11,21 @@ export const ProjectsCollection = styled.div`
   }
 
   .swiper-pagination-bullet-active {
-    background-color: orangered;
+    background-color: #ff8b00;
   }
 
   .swiper-scrollbar-drag {
-    background-color: orangered;
+    background-color: #ff8b00;
   }
 
   .swiper-button-next,
   .swiper-button-prev {
-    color: orangered;
+    color: #ff8b00;
   }
 `;
 
 export const ProjectsLeft = styled.div`
-  width: 50%;
+  width: 100%;
 
   img {
     width: 100%;
@@ -43,7 +35,7 @@ export const ProjectsLeft = styled.div`
 
 export const ProjectsRight = styled.div`
   width: 500px;
-  margin-left: 30px;
+  margin-left: 10px;
 
   h3 {
     margin-top: 5px;

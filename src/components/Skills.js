@@ -1,9 +1,9 @@
 import {
   SkillsContainer,
   SkillsCollection,
-  SkillsLeft,
-  SkillsRight,
+  SkillsSet,
 } from "./styles/Skills.styled";
+import { Header } from "./styles/Header.styled";
 
 import html from "../images/html.png";
 import css from "../images/css.png";
@@ -13,20 +13,25 @@ import node from "../images/nodeexpress.png";
 import react from "../images/react.png";
 import psql from "../images/postgresql.png";
 import python from "../images/python.png";
+import { Divider2, DividerLine2 } from "./styles/Dividers.styled";
 
 const Skills = () => {
   return (
     <SkillsContainer>
-      <h1>SKILLS</h1>
-      <p className="description">
-        Trained with the League of Shadows and was personally mentored by Ra's
-        Al Ghul. During my time training with the League of Shadows, I learned
-        how to engage 600 reddit nerds at once and became truly invulnerable to
-        trolls. Batman ain't got nothin' on my utility belt.
-      </p>
-
+      <Header>
+        <h1>SKILLS</h1>
+        <p className="description">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+      </Header>
       <SkillsCollection>
-        <SkillsLeft>
+        <SkillsSet>
           <p>
             <img alt="html" src={html}></img> HTML
           </p>
@@ -41,9 +46,9 @@ const Skills = () => {
           <p>
             <img alt="mongodb" src={mongo}></img> MongoDB
           </p>
-        </SkillsLeft>
+        </SkillsSet>
 
-        <SkillsRight>
+        <SkillsSet>
           <p>
             <img alt="node" src={node}></img> NodeJS/Express
           </p>
@@ -58,8 +63,10 @@ const Skills = () => {
           <p>
             <img alt="python" src={python}></img> Python
           </p>
-        </SkillsRight>
+        </SkillsSet>
       </SkillsCollection>
+      <Divider2></Divider2>
+      <DividerLine2></DividerLine2>
     </SkillsContainer>
   );
 };

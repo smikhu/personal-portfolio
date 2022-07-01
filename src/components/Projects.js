@@ -3,8 +3,8 @@ import {
   ProjectsCollection,
   ProjectsLeft,
   ProjectsRight,
-  ProjectsInfo,
 } from "./styles/Projects.styled";
+import { Header } from "./styles/Header.styled";
 
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -18,18 +18,19 @@ import ecb from "../images/east-coast-boogie.png";
 import bib from "../images/boys-in-blue.png";
 import amalgam from "../images/amalgam-comics.png";
 import pirates from "../images/pirates.png";
+import { Divider3, DividerLine3 } from "./styles/Dividers.styled";
 
 const Projects = () => {
   return (
     <ProjectsContainer>
-      <ProjectsInfo>
+      <Header>
         <h1>PROJECTS</h1>
         <p className="description">
           Below are some of my projects that I created by myself or with a
           group, I have decided not to make any changes or update any of these
           projects to show my growth.
         </p>
-      </ProjectsInfo>
+      </Header>
       <ProjectsCollection>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -39,6 +40,37 @@ const Projects = () => {
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
         >
+          <SwiperSlide className="projects-split">
+            <ProjectsLeft>
+              <img src={amalgam} alt="Amalgam Comics" />
+            </ProjectsLeft>
+
+            <ProjectsRight>
+              <h2>AMALGAM COMICS</h2>
+              <h3>React, Superhero API</h3>
+              <p>
+                My absolute favorite project that I have created. The
+                inspiration came while learning about CSS Grid in my free time.
+                An app where you can search for your favorite superhero/villain
+                and find information and statistics on them.
+              </p>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/smikhu/Amalgam-Comics"
+              >
+                <button>CODE</button>
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://wonderful-beaver-3ecebb.netlify.app/page1"
+              >
+                <button className="live">LIVE</button>
+              </a>
+            </ProjectsRight>
+          </SwiperSlide>
+
           <SwiperSlide className="projects-split">
             <ProjectsLeft>
               <img src={witcher} alt="Gwent Pairs" />
@@ -132,37 +164,6 @@ const Projects = () => {
 
           <SwiperSlide className="projects-split">
             <ProjectsLeft>
-              <img src={amalgam} alt="Amalgam Comics" />
-            </ProjectsLeft>
-
-            <ProjectsRight>
-              <h2>AMALGAM COMICS</h2>
-              <h3>React, Superhero API</h3>
-              <p>
-                My absolute favorite project that I have created. The
-                inspiration came from while learning about CSS Grid in my free
-                time. An app where you can search for your favorite
-                superhero/villain and find information and statistics on them.
-              </p>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/smikhu/Amalgam-Comics"
-              >
-                <button>CODE</button>
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://wonderful-beaver-3ecebb.netlify.app/page1"
-              >
-                <button className="live">LIVE</button>
-              </a>
-            </ProjectsRight>
-          </SwiperSlide>
-
-          <SwiperSlide className="projects-split">
-            <ProjectsLeft>
               <img src={pirates} alt="Pirates" />
             </ProjectsLeft>
 
@@ -194,6 +195,8 @@ const Projects = () => {
           </SwiperSlide>
         </Swiper>
       </ProjectsCollection>
+      <Divider3></Divider3>
+      <DividerLine3></DividerLine3>
     </ProjectsContainer>
   );
 };
