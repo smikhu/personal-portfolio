@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-  /* height: 100vh; */
+  height: 80vh;
 `;
 
 export const ProjectsCollection = styled.div`
@@ -25,7 +25,7 @@ export const ProjectsCollection = styled.div`
 `;
 
 export const ProjectsLeft = styled.div`
-  width: 100%;
+  width: 70%;
 
   img {
     width: 100%;

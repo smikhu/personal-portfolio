@@ -11,10 +11,10 @@ export const Divider = styled.div`
 
 export const DividerLine = styled.hr`
   margin-left: 80px;
-  margin-top: -60px;
-  height: 5px;
-  border-top-left-radius: 35%;
-  border-bottom-left-radius: 35%;
+  margin-top: -65px;
+  height: 10px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
   border: none;
   background: #ff8b00;
 `;
