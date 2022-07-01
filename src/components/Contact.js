@@ -5,8 +5,6 @@ import {
 } from "./styles/Contact.styled";
 import { Header } from "./styles/Header.styled";
 
-import linkedin from "../images/linkedin.png";
-import gmail from "../images/gmail.png";
 
 const Contact = () => {
   return (
@@ -20,16 +18,14 @@ const Contact = () => {
       </Header>
       <ContactButtons>
         <a href="mailto: StevenMikhu@gmail.com">
-          <p>
-            <img alt="gmail" src={gmail}></img>
-          </p>
+        <FontAwesomeIcon icon="fa-solid fa-envelope" />
         </a>
         <a
           rel="noreferrer"
           target="_blank"
           href="https://www.linkedin.com/in/stevenmikhu"
         >
-          <img alt="linkedin" src={linkedin}></img>
+          <FontAwesomeIcon icon="fa-brands fa-linkedin" />
         </a>
       </ContactButtons>
       <Footer></Footer>
