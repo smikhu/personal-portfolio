@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 
 import Navbar from "./components/Navbar";
 import About from "./components/About";
@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 import { GlobalStyles } from "./components/styles/Global";
-import { ThemeProvider } from "styled-components";
+// import { ThemeProvider } from "styled-components";
 
 const App = () => {
   return (

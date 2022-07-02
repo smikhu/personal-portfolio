@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import ironman from "../../images/ironman.png";
 
 export const AboutContainer = styled.div`
 height: 100vh;

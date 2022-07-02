@@ -10,7 +10,7 @@ const About = () => {
   return (
     <AboutContainer>
       <AboutCollection>
-        <img src={pp3} />
+        <img alt="portfolio-pic" src={pp3} />
         <AboutInfo>
           <h1>STEVEN MIKHU</h1>
           <h2>Junior Front End Developer</h2>
@@ -23,9 +23,9 @@ const About = () => {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum."
           </p>
-          <a>
+          
             <button>RESUME</button>
-          </a>
+          
         </AboutInfo>
       </AboutCollection>
       <Divider></Divider>

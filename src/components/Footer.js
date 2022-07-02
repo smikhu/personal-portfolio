@@ -8,6 +8,7 @@ const Footer = () => {
           <p>
             DESIGNED BY |{" "}
             <a
+              rel="noreferrer"
               target="_blank"
               href="https://github.com/smikhu/personal-portfolio"
             >
