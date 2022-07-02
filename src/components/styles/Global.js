@@ -9,24 +9,29 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 h1 {
-    color: #FF8B00;
+    color: #ff8b00;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
 }
 
 button {
     height: 35px;
     width: 100px;
     font-size: 20px;
-    color: #FF8B00;
-    border: 2px solid #FF8B00;
+    color: #ff8b00;
+    border: 2px solid #ff8b00;
     border-radius: 3px;
     font-weight: 600;
     cursor: pointer;
     &:hover {
-        background-color: #FF8B00;
+        background-color: #ff8b00;
         color: white;
         transition: all .2s;
     }

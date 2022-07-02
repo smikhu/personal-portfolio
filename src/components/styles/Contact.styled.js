@@ -1,14 +1,22 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-  height: 100vh;
+  margin-top: 150px;
 `;
 
 export const ContactButtons = styled.div`
-  img {
-    width: 50px;
-    height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  .contact-icons {
+    font-size: 100px;
+    color: #ff8b00;
+    transition: all 1s;
+    &:hover {
+        color: orangered;
+    }
   }
 `;
 
-export const Footer = styled.div``;

@@ -5,6 +5,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 import { GlobalStyles } from "./components/styles/Global";
 import { ThemeProvider } from "styled-components";
@@ -23,6 +24,8 @@ const App = () => {
       <Projects />
 
       <Contact />
+
+      <Footer />
     </div>
   );
 };

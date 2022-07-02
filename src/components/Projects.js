@@ -26,8 +26,7 @@ const Projects = () => {
       <Header>
         <h1>PROJECTS</h1>
         <p className="description">
-          Below are some of my projects that I created by myself or with a
-          group, I have decided not to make any changes or update any of these
+          Below is a collection of some of the projects that I have built myself or with a group. I have decided not to make any changes or update any of these
           projects to show my growth.
         </p>
       </Header>

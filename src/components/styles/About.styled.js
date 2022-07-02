@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ironman from "../../images/ironman.png";
 
 export const AboutContainer = styled.div`
-  height: 100vh;
+height: 100vh;
 `;
 
 export const AboutCollection = styled.div`
@@ -15,7 +15,10 @@ export const AboutCollection = styled.div`
   img {
     height: 375px;
     width: 300px;
-    border-radius: 25%;
+    border: 3px solid black;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 2px 2px 10px 0px black;
   }
 `;
 

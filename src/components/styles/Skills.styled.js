@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SkillsContainer = styled.div`
-  height: 100vh;
+  height: 80vh;
 
   img {
     width: 50px;
@@ -20,6 +20,7 @@ export const SkillsSet = styled.div`
   margin: 50px;
 
   p {
+    font-weight: bold;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
     border-radius: 5px;
@@ -33,7 +34,7 @@ export const SkillsSet = styled.div`
       transform: scale(1.1);
       background-color: #ff8b00;
       color: white;
-      box-shadow: 2px 2px 15px 0px black;
+      box-shadow: 2px 2px 10px 0px black;
     }
   }
 `;

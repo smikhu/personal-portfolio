@@ -1,14 +1,14 @@
 import { Link as ScrollLink } from "react-scroll";
 import { NavbarContainer } from "./styles/Navbar.styled";
 
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+
 import soul from "../images/soul.png";
 import reality from "../images/reality.png";
 import space from "../images/space.png";
 import power from "../images/power.png";
 import time from "../images/time.png";
 import mind from "../images/mind.png";
-import git from "../images/github.png";
-import linked from "../images/linkedin.png";
 
 const Navbar = () => {
   return (
@@ -34,13 +34,13 @@ const Navbar = () => {
         <li className="personal stone-img">
           <img src={mind} />
           <figcaption className="stone-img-text">
-            <img class="socials" src={git} />
+          <AiFillGithub className="contact-icons" />
           </figcaption>
         </li>
         <li className="stone-img">
           <img src={reality} />
           <figcaption className="stone-img-text">
-            <img class="socials" src={linked} />
+          <AiFillLinkedin className="contact-icons" />
           </figcaption>
         </li>
       </ul>

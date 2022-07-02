@@ -1,10 +1,8 @@
-import {
-  ContactContainer,
-  ContactButtons,
-  Footer,
-} from "./styles/Contact.styled";
+import { ContactContainer, ContactButtons } from "./styles/Contact.styled";
 import { Header } from "./styles/Header.styled";
 
+import { AiFillLinkedin } from "react-icons/ai";
+import { TbMailForward } from "react-icons/tb";
 
 const Contact = () => {
   return (
@@ -18,17 +16,17 @@ const Contact = () => {
       </Header>
       <ContactButtons>
         <a href="mailto: StevenMikhu@gmail.com">
-        <FontAwesomeIcon icon="fa-solid fa-envelope" />
+          <TbMailForward className="contact-icons" />
         </a>
+
         <a
           rel="noreferrer"
           target="_blank"
           href="https://www.linkedin.com/in/stevenmikhu"
         >
-          <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+          <AiFillLinkedin className="contact-icons" />
         </a>
       </ContactButtons>
-      <Footer></Footer>
     </ContactContainer>
   );
 };

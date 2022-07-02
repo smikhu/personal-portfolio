@@ -9,6 +9,7 @@ export const NavbarContainer = styled.nav`
   padding: 18px 18px;
   background-color: #ff8b00;
   border: 2px solid black;
+  border-radius: 4px;
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -44,7 +45,7 @@ export const NavbarContainer = styled.nav`
     opacity: 1;
   }
 
-  .socials {
+  .contact-icons {
     height: 25px;
     width: 25px;
   }

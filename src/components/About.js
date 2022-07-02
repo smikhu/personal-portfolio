@@ -13,7 +13,7 @@ const About = () => {
         <img src={pp3} />
         <AboutInfo>
           <h1>STEVEN MIKHU</h1>
-          <h2>Junior Front End Web Developer</h2>
+          <h2>Junior Front End Developer</h2>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
