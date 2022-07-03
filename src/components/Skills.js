@@ -17,7 +17,7 @@ import { Divider2, DividerLine2 } from "./styles/Dividers.styled";
 
 const Skills = () => {
   return (
-    <SkillsContainer>
+    <SkillsContainer id="skills">
       <Header>
         <h1>SKILLS</h1>
         <p className="description">

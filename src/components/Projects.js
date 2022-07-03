@@ -22,7 +22,7 @@ import { Divider3, DividerLine3 } from "./styles/Dividers.styled";
 
 const Projects = () => {
   return (
-    <ProjectsContainer>
+    <ProjectsContainer id="projects">
       <Header>
         <h1>PROJECTS</h1>
         <p className="description">

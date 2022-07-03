@@ -205,6 +205,6 @@ export const mind = {
     footerBackground: "#FFD300",
     footerBorder: "white",
     footerText: "black",
-    footerHover: "black",
+    footerHover: "red",
   },
 };

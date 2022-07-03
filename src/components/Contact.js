@@ -6,7 +6,7 @@ import { TbMailForward } from "react-icons/tb";
 
 const Contact = () => {
   return (
-    <ContactContainer>
+    <ContactContainer id="contact">
       <Header>
         <h1>CONTACT</h1>
         <p className="description">

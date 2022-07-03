@@ -2,7 +2,7 @@ import { FooterContainer, FooterInfo } from "./styles/Footer.styled";
 
 const Footer = () => {
   return (
-    <FooterContainer>
+    <FooterContainer id="footer">
       <FooterInfo>
         <h4>
           DESIGNED BY |{" "}

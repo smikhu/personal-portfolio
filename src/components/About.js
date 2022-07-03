@@ -31,7 +31,7 @@ const About = (props) => {
   };
 
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <AboutCollection>
         <ImageMapper
           src={gauntlet}

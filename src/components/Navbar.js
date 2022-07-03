@@ -1,4 +1,4 @@
-// import { Link as ScrollLink } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import { NavbarContainer } from "./styles/Navbar.styled";
 
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
@@ -15,20 +15,28 @@ const Navbar = () => {
     <NavbarContainer>
       <ul>
         <li className="stone-img">
-          <img alt="soul-stone" src={soul} />
-          <figcaption className="stone-img-text">About</figcaption>
+          <ScrollLink smooth={true} to="about">
+            <img alt="soul-stone" src={soul} />
+            <figcaption className="stone-img-text">About</figcaption>
+          </ScrollLink>
         </li>
         <li className="stone-img">
-          <img alt="power-stone" src={power} />
-          <figcaption className="stone-img-text">Skills</figcaption>
+          <ScrollLink smooth={true} offset={-130} to="skills">
+            <img alt="power-stone" src={power} />
+            <figcaption className="stone-img-text">Skills</figcaption>
+          </ScrollLink>
         </li>
         <li className="stone-img">
-          <img alt="space-stone" src={space} />
-          <figcaption className="stone-img-text">Projects</figcaption>
+          <ScrollLink smooth={true} offset={-130} to="projects">
+            <img alt="space-stone" src={space} />
+            <figcaption className="stone-img-text">Projects</figcaption>
+          </ScrollLink>
         </li>
         <li className="stone-img">
-          <img alt="time-stone" src={time} />
-          <figcaption className="stone-img-text">Contact</figcaption>
+          <ScrollLink smooth={true} to="contact">
+            <img alt="time-stone" src={time} />
+            <figcaption className="stone-img-text">Contact</figcaption>
+          </ScrollLink>
         </li>
 
         <li className="personal stone-img">

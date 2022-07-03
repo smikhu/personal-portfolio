@@ -13,6 +13,7 @@ export const NavbarContainer = styled.nav`
   color: ${({ theme }) => theme.colors.navbarText};
   text-transform: uppercase;
   text-align: center;
+  transition: all 1s;
 
   img {
     width: 50px;
