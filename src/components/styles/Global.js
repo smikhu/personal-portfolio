@@ -6,6 +6,7 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    transition: all 1s;
 }
 
 h1 {
@@ -13,11 +14,11 @@ h1 {
 }
 
 h2 {
-    color: ${({ theme }) => theme.colors.h1Header};
+    color: ${({ theme }) => theme.colors.h2Header};
 }
 
 h3 {
-    color: ${({ theme }) => theme.colors.h1Header};
+    color: ${({ theme }) => theme.colors.h2Header};
 }   
 
 p {

@@ -14,7 +14,7 @@ export const ContactButtons = styled.div`
   .contact-icons {
     font-size: 100px;
     color: ${({ theme }) => theme.colors.contactButtons};
-    transition: all 1s;
+    transition: all 0.3s;
     &:hover {
       color: ${({ theme }) => theme.colors.contactButtonsHover};
     }

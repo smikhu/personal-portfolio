@@ -38,7 +38,7 @@ export const ProjectsLeft = styled.div`
 `;
 
 export const ProjectsRight = styled.div`
-  width: 50%;
+  width: 650px;
   margin-left: 15px;
 
   h3 {

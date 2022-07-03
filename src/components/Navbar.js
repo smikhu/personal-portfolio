@@ -32,16 +32,24 @@ const Navbar = () => {
         </li>
 
         <li className="personal stone-img">
-          <img alt="mind-stone" src={mind} />
-          <figcaption className="stone-img-text">
-            <AiFillGithub className="contact-icons" />
-          </figcaption>
+          <a rel="noreferrer" target="_blank" href="https://github.com/smikhu">
+            <img alt="mind-stone" src={mind} />
+            <figcaption className="stone-img-text">
+              <AiFillGithub className="contact-icons" />
+            </figcaption>
+          </a>
         </li>
         <li className="stone-img">
-          <img alt="reality-stone" src={reality} />
-          <figcaption className="stone-img-text">
-            <AiFillLinkedin className="contact-icons" />
-          </figcaption>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/stevenmikhu/"
+          >
+            <img alt="reality-stone" src={reality} />
+            <figcaption className="stone-img-text">
+              <AiFillLinkedin className="contact-icons" />
+            </figcaption>
+          </a>
         </li>
       </ul>
     </NavbarContainer>
