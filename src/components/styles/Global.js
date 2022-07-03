@@ -12,6 +12,14 @@ h1 {
     color: ${({ theme }) => theme.colors.h1Header};
 }
 
+h2 {
+    color: ${({ theme }) => theme.colors.h1Header};
+}
+
+h3 {
+    color: ${({ theme }) => theme.colors.h1Header};
+}   
+
 p {
     font-size: 18px;
     color: ${({ theme }) => theme.colors.pHeader}

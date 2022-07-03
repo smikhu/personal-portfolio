@@ -33,6 +33,8 @@ export const SkillsSet = styled.div`
     justify-content: space-between;
     &:hover {
       transform: scale(1.1);
+      border-bottom: 2px solid ${({ theme }) => theme.colors.skillsBorderHover};
+      border-left: 2px solid ${({ theme }) => theme.colors.skillsBorderHover};
       background-color: ${({ theme }) => theme.colors.skillsBackgroundHover};
       color: ${({ theme }) => theme.colors.skillsTextHover};
       box-shadow: 2px 2px 10px 0px ${({ theme }) => theme.colors.skillsShadow};
