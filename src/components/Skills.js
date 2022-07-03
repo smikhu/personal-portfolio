@@ -4,6 +4,7 @@ import {
   SkillsSet,
 } from "./styles/Skills.styled";
 import { Header } from "./styles/Header.styled";
+import { Divider2, DividerLine2 } from "./styles/Dividers.styled";
 
 import html from "../images/html.png";
 import css from "../images/css.png";
@@ -13,7 +14,6 @@ import node from "../images/nodeexpress.png";
 import react from "../images/react.png";
 import psql from "../images/postgresql.png";
 import python from "../images/python.png";
-import { Divider2, DividerLine2 } from "./styles/Dividers.styled";
 
 const Skills = () => {
   return (

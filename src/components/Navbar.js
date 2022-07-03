@@ -15,7 +15,7 @@ const Navbar = () => {
     <NavbarContainer>
       <ul>
         <li className="stone-img">
-          <ScrollLink smooth={true} to="about">
+          <ScrollLink smooth={true} offset={-150} to="about">
             <img alt="soul-stone" src={soul} />
             <figcaption className="stone-img-text">About</figcaption>
           </ScrollLink>

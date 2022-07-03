@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const SkillsContainer = styled.div`
-  background-color: ${({ theme }) => theme.colors.background};
-  height: 80vh;
+  margin-top: 100px;
 
   img {
     width: 50px;

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-  height: 40vh;
   background-color: ${({ theme }) => theme.colors.background};
+  margin-top: 100px;
 `;
 
 export const ContactButtons = styled.div`

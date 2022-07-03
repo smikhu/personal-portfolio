@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   border: 2px solid ${({ theme }) => theme.colors.footerBorder};
   border-radius: 4px;
+  margin-top: 100px;
 `;
 
 export const FooterInfo = styled.div`

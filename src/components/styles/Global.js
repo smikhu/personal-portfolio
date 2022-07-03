@@ -6,7 +6,12 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    font-weight: 900;
     transition: all 1s;
+}
+
+body {
+    background-color: ${({ theme }) => theme.colors.background};
 }
 
 h1 {
@@ -20,7 +25,7 @@ h2 {
 h3 {
     color: ${({ theme }) => theme.colors.h2Header};
 }   
-
+ 
 p {
     font-size: 18px;
     color: ${({ theme }) => theme.colors.pHeader}

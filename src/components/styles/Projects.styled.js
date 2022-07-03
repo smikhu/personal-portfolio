@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-  background-color: ${({ theme }) => theme.colors.background};
-  height: 100vh;
+  margin-top: 100px;
 `;
 
 export const ProjectsCollection = styled.div`
