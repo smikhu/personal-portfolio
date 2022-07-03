@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const SkillsContainer = styled.div`
-  height: 80vh;
+/* margin-top: 100px; */
+background-color: #e5e4e2;
+height: 80vh;
 
   img {
     width: 50px;
@@ -33,7 +35,7 @@ export const SkillsSet = styled.div`
     &:hover {
       transform: scale(1.1);
       background-color: #ff8b00;
-      color: white;
+      color: #e5e4e2;
       box-shadow: 2px 2px 10px 0px black;
     }
   }

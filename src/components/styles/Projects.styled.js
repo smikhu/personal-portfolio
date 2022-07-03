@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
+background-color: #e5e4e2;
+height: 100vh;
 `;
 
 export const ProjectsCollection = styled.div`
@@ -24,7 +26,7 @@ export const ProjectsCollection = styled.div`
 `;
 
 export const ProjectsLeft = styled.div`
-  width: 50%;
+  width: 850px;
 
   img {
     width: 100%;
@@ -35,7 +37,7 @@ export const ProjectsLeft = styled.div`
 `;
 
 export const ProjectsRight = styled.div`
-  width: 50%;
+  width: 650px;
   margin-left: 15px;
 
   h3 {

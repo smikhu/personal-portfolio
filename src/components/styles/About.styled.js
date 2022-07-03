@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
+/* margin-top: 200px; */
 height: 100vh;
+background-color: #e5e4e2;
 `;
 
 export const AboutCollection = styled.div`
@@ -11,14 +13,14 @@ export const AboutCollection = styled.div`
   justify-content: center;
   margin: 10px;
 
-  img {
+  /* img {
     height: 375px;
     width: 300px;
     border: 3px solid black;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
     box-shadow: 2px 2px 10px 0px black;
-  }
+  } */
 `;
 
 export const AboutInfo = styled.div`

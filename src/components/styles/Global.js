@@ -26,13 +26,14 @@ button {
     width: 100px;
     font-size: 20px;
     color: #ff8b00;
+    background-color: #e5e4e2;
     border: 2px solid #ff8b00;
     border-radius: 3px;
     font-weight: 600;
     cursor: pointer;
     &:hover {
-        background-color: #ff8b00;
-        color: white;
+        background-color: orangered;
+        color: #e5e4e2;
         transition: all .2s;
     }
 }

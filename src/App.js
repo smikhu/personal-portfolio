@@ -10,7 +10,10 @@ import Footer from "./components/Footer";
 import { GlobalStyles } from "./components/styles/Global";
 // import { ThemeProvider } from "styled-components";
 
+
 const App = () => {
+
+
   return (
     <div>
       <GlobalStyles />

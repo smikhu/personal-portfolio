@@ -1,4 +1,4 @@
-import pp3 from "../images/pp3.jpeg";
+// import pp3 from "../images/pp3.jpeg";
 import {
   AboutContainer,
   AboutInfo,
@@ -6,11 +6,37 @@ import {
 } from "./styles/About.styled";
 import { Divider, DividerLine } from "./styles/Dividers.styled";
 
+import ImageMapper from 'react-image-mapper';
+import gauntlet from '../images/gauntlet.png'
+
 const About = () => {
+
+  const MAP = {
+    name: "gauntlet",
+    areas: [
+        { id: "soul", shape: "circle", coords: [310,305,30]},
+        { id: "reality", shape: "circle", coords: [382,290,40]},
+        { id: "space", shape: "circle", coords: [490,290,40]},
+        { id: "power", shape: "circle", coords: [570,295,37]},
+        { id: "time", shape: "circle", coords: [690,555,35]},
+        { id: "mind", shape: "circle", coords: [425,415,60]},
+    ]
+}
+
   return (
     <AboutContainer>
       <AboutCollection>
-        <img alt="portfolio-pic" src={pp3} />
+      <ImageMapper src={gauntlet} map={MAP} width={300} imgWidth={900}
+            onClick={(area) => {
+                if (area.id === 'time') {
+                    document.body.style.backgroundColor = 'green'
+                } else if (area.id === 'reality') {
+                    document.body.style.backgroundColor = 'red'
+                }
+            }}
+            
+            />
+        {/* <img alt="portfolio-pic" src={pp3} /> */}
         <AboutInfo>
           <h1>STEVEN MIKHU</h1>
           <h2>Junior Front End Developer</h2>
