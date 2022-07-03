@@ -14,6 +14,7 @@ export const FooterInfo = styled.div`
   a {
     color: ${({ theme }) => theme.colors.footerText};
     &:hover {
+      font-weight: 900;
       transition: all 1s;
       color: ${({ theme }) => theme.colors.footerHover};
     }

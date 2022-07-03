@@ -10,32 +10,25 @@ import Footer from "./components/Footer";
 import { GlobalStyles } from "./components/styles/Global";
 import { ThemeProvider } from "styled-components";
 
-import {
-  soul,
-  reality,
-  space,
-  power,
-  time,
-  mind,
-} from "./components/styles/Themes.styled";
+import { soul } from "./components/styles/Themes.styled";
 
 const App = () => {
-  const [selectedTheme, setSelectedTheme] = useState(soul);
+  const [phase, setPhase] = useState(soul);
 
   useEffect(() => {
-    const currentTheme = JSON.parse(localStorage.getItem("current-theme"));
-    if (currentTheme) {
-      setSelectedTheme(currentTheme);
+    const currentPhase = JSON.parse(localStorage.getItem("current-phase"));
+    if (currentPhase) {
+      setPhase(currentPhase);
     }
   }, []);
 
-  const HandleThemeChange = (theme) => {
-    setSelectedTheme(theme);
-    localStorage.setItem("current-theme", JSON.stringify(theme));
+  const HandleThemeChange = (phase) => {
+    setPhase(phase);
+    localStorage.setItem("current-phase", JSON.stringify(phase));
   };
 
   return (
-    <ThemeProvider theme={selectedTheme}>
+    <ThemeProvider theme={phase}>
       <GlobalStyles />
 
       <Navbar />
