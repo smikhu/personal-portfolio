@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const SkillsContainer = styled.div`
-/* margin-top: 100px; */
-background-color: #e5e4e2;
-height: 80vh;
+  background-color: ${({ theme }) => theme.colors.background};
+  height: 80vh;
 
   img {
     width: 50px;
@@ -23,8 +22,8 @@ export const SkillsSet = styled.div`
 
   p {
     font-weight: bold;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
+    border-bottom: 2px solid ${({ theme }) => theme.colors.skillsBorder};
+    border-left: 2px solid ${({ theme }) => theme.colors.skillsBorder};
     border-radius: 5px;
     padding: 15px;
     transition: all 0.2s ease-in-out;
@@ -34,9 +33,9 @@ export const SkillsSet = styled.div`
     justify-content: space-between;
     &:hover {
       transform: scale(1.1);
-      background-color: #ff8b00;
-      color: #e5e4e2;
-      box-shadow: 2px 2px 10px 0px black;
+      background-color: ${({ theme }) => theme.colors.skillsBackgroundHover};
+      color: ${({ theme }) => theme.colors.skillsTextHover};
+      box-shadow: 2px 2px 10px 0px ${({ theme }) => theme.colors.skillsShadow};
     }
   }
 `;

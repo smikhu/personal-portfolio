@@ -9,11 +9,12 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 h1 {
-    color: #ff8b00;
+    color: ${({ theme }) => theme.colors.h1Header};
 }
 
 p {
     font-size: 18px;
+    color: ${({ theme }) => theme.colors.pHeader}
 }
 
 a {
@@ -25,15 +26,15 @@ button {
     height: 35px;
     width: 100px;
     font-size: 20px;
-    color: #ff8b00;
-    background-color: #e5e4e2;
-    border: 2px solid #ff8b00;
+    color: ${({ theme }) => theme.colors.buttonsTextBefore};
+    background-color: ${({ theme }) => theme.colors.buttonsBackgroundBefore};
+    border: 2px solid ${({ theme }) => theme.colors.buttonsBorder};
     border-radius: 3px;
     font-weight: 600;
     cursor: pointer;
     &:hover {
-        background-color: orangered;
-        color: #e5e4e2;
+        background-color: ${({ theme }) => theme.colors.buttonsHoverBackground};
+        color: ${({ theme }) => theme.colors.buttonsTextHover};
         transition: all .2s;
     }
 }

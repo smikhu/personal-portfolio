@@ -1,25 +1,21 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
-  border: 2px solid black;
+  border: 2px solid ${({ theme }) => theme.colors.footerBorder};
   border-radius: 4px;
 `;
 
 export const FooterInfo = styled.div`
-  background-color: #ff8b00;
+  background-color: ${({ theme }) => theme.colors.footerBackground};
   padding: 20px;
-  color: white;
+  color: ${({ theme }) => theme.colors.footerText};
   text-align: center;
 
-  p {
-    /* font-size: 18px; */
-  }
   a {
-    transition: all 1s;
+    color: ${({ theme }) => theme.colors.footerText};
     &:hover {
       transition: all 1s;
-      font-weight: bolder;
-      color: orangered;
+      color: ${({ theme }) => theme.colors.footerHover};
     }
   }
 `;

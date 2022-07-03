@@ -7,10 +7,10 @@ export const NavbarContainer = styled.nav`
   z-index: 100;
   width: 100%;
   padding: 18px 18px;
-  background-color: #ff8b00;
-  border: 2px solid black;
+  background-color: ${({ theme }) => theme.colors.navbarBackground};
+  border: 2px solid ${({ theme }) => theme.colors.navbarBorder};
   border-radius: 4px;
-  color: white;
+  color: ${({ theme }) => theme.colors.navbarText};
   text-transform: uppercase;
   text-align: center;
 

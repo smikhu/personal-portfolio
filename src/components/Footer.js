@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterInfo>
-        <p>
+        <h4>
           DESIGNED BY |{" "}
           <a
             rel="noreferrer"
@@ -13,7 +13,7 @@ const Footer = () => {
           >
             STEVEN MIKHU
           </a>
-        </p>
+        </h4>
       </FooterInfo>
     </FooterContainer>
   );

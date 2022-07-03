@@ -16,7 +16,7 @@ export const DividerLine = styled.hr`
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
   border: none;
-  background: #ff8b00;
+  background: ${({ theme }) => theme.colors.divider};
 `;
 
 export const Divider2 = styled.div`
@@ -30,7 +30,7 @@ export const DividerLine2 = styled.hr`
   margin-top: -60px;
   border-top: none;
   border-left: none;
-  border-bottom: 2px dashed #ff8b00;
+  border-bottom: 2px dashed ${({ theme }) => theme.colors.divider};
 `;
 
 export const Divider3 = styled.div`
@@ -44,6 +44,6 @@ export const DividerLine3 = styled.hr`
   margin-left: 80px;
   margin-top: -60px;
   height: 5px;
-  border: 5px solid #ff8b00;
+  border: 5px solid ${({ theme }) => theme.colors.divider};
   border-top-left-radius: 10px;
 `;

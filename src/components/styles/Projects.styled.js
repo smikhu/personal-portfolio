@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-background-color: #e5e4e2;
-height: 100vh;
+  background-color: ${({ theme }) => theme.colors.background};
+  height: 100vh;
 `;
 
 export const ProjectsCollection = styled.div`
@@ -12,16 +12,16 @@ export const ProjectsCollection = styled.div`
   }
 
   .swiper-pagination-bullet-active {
-    background-color: #ff8b00;
+    background-color: ${({ theme }) => theme.colors.swiper};
   }
 
   .swiper-scrollbar-drag {
-    background-color: #ff8b00;
+    background-color: ${({ theme }) => theme.colors.swiper};
   }
 
   .swiper-button-next,
   .swiper-button-prev {
-    color: #ff8b00;
+    color: ${({ theme }) => theme.colors.swiper};
   }
 `;
 
@@ -31,8 +31,9 @@ export const ProjectsLeft = styled.div`
   img {
     width: 100%;
     border-radius: 5px;
-    border: 3px solid black;
-    box-shadow: 2px 2px 10px 0px black;
+    border: 3px solid ${({ theme }) => theme.colors.imageBorder};
+    box-shadow: 2px 2px 10px 0px
+      ${({ theme }) => theme.colors.imageBorderShadow};
   }
 `;
 

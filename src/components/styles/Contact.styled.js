@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContactContainer = styled.div`
   height: 40vh;
-  background-color: #e5e4e2;
+  background-color: ${({ theme }) => theme.colors.background};
 `;
 
 export const ContactButtons = styled.div`
@@ -13,11 +13,10 @@ export const ContactButtons = styled.div`
   margin-top: 50px;
   .contact-icons {
     font-size: 100px;
-    color: #ff8b00;
+    color: ${({ theme }) => theme.colors.contactButtons};
     transition: all 1s;
     &:hover {
-        color: orangered;
+      color: ${({ theme }) => theme.colors.contactButtonsHover};
     }
   }
 `;
-

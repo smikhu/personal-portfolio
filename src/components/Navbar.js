@@ -34,13 +34,13 @@ const Navbar = () => {
         <li className="personal stone-img">
           <img alt="mind-stone" src={mind} />
           <figcaption className="stone-img-text">
-          <AiFillGithub className="contact-icons" />
+            <AiFillGithub className="contact-icons" />
           </figcaption>
         </li>
         <li className="stone-img">
           <img alt="reality-stone" src={reality} />
           <figcaption className="stone-img-text">
-          <AiFillLinkedin className="contact-icons" />
+            <AiFillLinkedin className="contact-icons" />
           </figcaption>
         </li>
       </ul>
