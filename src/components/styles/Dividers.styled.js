@@ -7,6 +7,9 @@ export const Divider = styled.div`
   height: 75px;
   background: url(${ironman}) no-repeat;
   background-size: 80px 75px;
+  @media only screen and (max-width: 950px) {
+    margin-top: 50px;
+  }
 `;
 
 export const DividerLine = styled.hr`

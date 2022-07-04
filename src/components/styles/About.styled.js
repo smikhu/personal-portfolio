@@ -9,9 +9,27 @@ export const AboutCollection = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 950px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 `;
 
 export const AboutInfo = styled.div`
   padding: 0px 50px;
   width: 650px;
+
+  p {
+    margin-top: 15px;
+  }
+
+  button {
+    margin-top: 10px
+  }
+
+  @media only screen and (max-width: 950px) {
+    padding: 0;
+    width: 350px;
+  }
 `;
