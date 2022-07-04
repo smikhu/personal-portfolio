@@ -5,8 +5,8 @@ export const FooterContainer = styled.div`
   border-radius: 4px;
   margin-top: 100px;
   @media only screen and (max-width: 950px) {
-      font-size: 14px;
-    }
+    font-size: 14px;
+  }
 `;
 
 export const FooterInfo = styled.div`

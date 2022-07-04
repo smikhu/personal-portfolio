@@ -7,11 +7,10 @@ export const SkillsContainer = styled.div`
     width: 50px;
     height: 50px;
     @media only screen and (max-width: 950px) {
-    width: 35px;
-    height: 35px;
+      width: 35px;
+      height: 35px;
+    }
   }
-  }
-
 `;
 
 export const SkillsCollection = styled.div`

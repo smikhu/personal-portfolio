@@ -25,7 +25,7 @@ export const AboutInfo = styled.div`
   }
 
   button {
-    margin-top: 10px
+    margin-top: 10px;
   }
 
   @media only screen and (max-width: 970px) {
