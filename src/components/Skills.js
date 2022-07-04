@@ -21,7 +21,7 @@ const Skills = () => {
       <Header>
         <h1>SKILLS</h1>
         <p className="description">
-          Former Avenger under the mentorship of Captain America. Invulnerable
+          Former Avenger under the mentorship of Captain America himself. Invulnerable
           to trolls and the ability to engage 600 Reddit nerds at once.
         </p>
       </Header>

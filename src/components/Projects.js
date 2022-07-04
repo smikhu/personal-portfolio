@@ -175,7 +175,7 @@ const Projects = () => {
                 movies. You can search for the current list of movies and find
                 information on them and add them to your personal favorites
                 list. You can also add your own movie to the list where other
-                users will be able to view it and favorite it.
+                users will be able to view it and favorite it as well.
               </p>
               <a
                 target="_blank"
