@@ -44,9 +44,6 @@ export const Divider3 = styled.div`
   height: 90px;
   background: url(${captainamerica}) no-repeat;
   background-size: 80px 75px;
-  @media only screen and (max-width: 950px) {
-    margin-top: 50px;
-  }
 `;
 
 export const DividerLine3 = styled.hr`

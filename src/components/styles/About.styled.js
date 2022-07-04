@@ -9,7 +9,7 @@ export const AboutCollection = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 970px) {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -28,7 +28,7 @@ export const AboutInfo = styled.div`
     margin-top: 10px
   }
 
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 970px) {
     padding: 0;
     width: 350px;
   }

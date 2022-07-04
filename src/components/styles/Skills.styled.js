@@ -6,7 +6,12 @@ export const SkillsContainer = styled.div`
   img {
     width: 50px;
     height: 50px;
+    @media only screen and (max-width: 950px) {
+    width: 35px;
+    height: 35px;
   }
+  }
+
 `;
 
 export const SkillsCollection = styled.div`
@@ -50,8 +55,11 @@ export const SkillsSet = styled.div`
     }
     @media only screen and (max-width: 950px) {
       font-size: 16px;
-      margin: 5px;
-      padding: 5px;
+      margin: 10px;
+      padding: 10px;
+      &:hover {
+        box-shadow: 2px 2px 5px 0px ${({ theme }) => theme.colors.skillsShadow};
+      }
     }
   }
 `;

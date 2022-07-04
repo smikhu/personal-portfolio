@@ -4,6 +4,9 @@ export const FooterContainer = styled.div`
   border: 2px solid ${({ theme }) => theme.colors.footerBorder};
   border-radius: 4px;
   margin-top: 100px;
+  @media only screen and (max-width: 950px) {
+      font-size: 14px;
+    }
 `;
 
 export const FooterInfo = styled.div`

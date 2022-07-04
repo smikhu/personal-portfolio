@@ -8,6 +8,9 @@ export const ProjectsCollection = styled.div`
   .projects-split {
     display: flex;
     padding: 50px;
+    @media only screen and (max-width: 950px) {
+      flex-direction: column;
+    }
   }
 
   .swiper-pagination-bullet-active {
@@ -26,6 +29,9 @@ export const ProjectsCollection = styled.div`
 
 export const ProjectsLeft = styled.div`
   width: 850px;
+  @media only screen and (max-width: 950px) {
+    width: 100%;
+  }
 
   img {
     width: 100%;
@@ -39,6 +45,14 @@ export const ProjectsLeft = styled.div`
 export const ProjectsRight = styled.div`
   width: 650px;
   margin-left: 15px;
+  @media only screen and (max-width: 950px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
 
   h3 {
     margin-top: 5px;
@@ -46,9 +60,18 @@ export const ProjectsRight = styled.div`
 
   p {
     margin-top: 20px;
+    @media only screen and (max-width: 950px) {
+      text-align: center;
+    }
   }
 
   .live {
     margin: 10px;
+  }
+
+  button {
+    @media only screen and (max-width: 950px) {
+      margin-top: 15px;
+    }
   }
 `;
