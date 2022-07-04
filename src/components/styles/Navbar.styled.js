@@ -14,10 +14,18 @@ export const NavbarContainer = styled.nav`
   text-transform: uppercase;
   text-align: center;
   transition: all 1s;
+  @media only screen and (max-width: 950px) {
+    padding: 0;
+    padding-top: 5px;
+  }
 
   img {
     width: 50px;
     height: 50px;
+    @media only screen and (max-width: 950px) {
+      width: 35px;
+      height: 35px;
+    }
   }
 
   ul {
@@ -29,6 +37,10 @@ export const NavbarContainer = styled.nav`
   ul li {
     margin-left: 50px;
     cursor: pointer;
+    @media only screen and (max-width: 950px) {
+      margin: 10px;
+      font-size: 12px;
+    }
   }
 
   .personal {
@@ -49,5 +61,9 @@ export const NavbarContainer = styled.nav`
   .contact-icons {
     height: 25px;
     width: 25px;
+    @media only screen and (max-width: 950px) {
+      height: 20px;
+      width: 20px;
+    }
   }
 `;

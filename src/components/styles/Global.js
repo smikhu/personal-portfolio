@@ -57,5 +57,9 @@ button {
     width: 800px;
     text-align: center;
     font-size: 20px;
+    @media only screen and (max-width: 950px) {
+    width: 350px;
+    font-size: 18px;
+    }
   }
 `;

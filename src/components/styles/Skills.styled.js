@@ -13,11 +13,19 @@ export const SkillsCollection = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
+  @media only screen and (max-width: 950px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const SkillsSet = styled.div`
   width: 50%;
   margin: 50px;
+  @media only screen and (max-width: 950px) {
+   width: 350px;
+  }
 
   p {
     font-weight: bold;
