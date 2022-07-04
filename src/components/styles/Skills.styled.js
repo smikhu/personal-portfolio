@@ -24,7 +24,9 @@ export const SkillsSet = styled.div`
   width: 50%;
   margin: 50px;
   @media only screen and (max-width: 950px) {
-   width: 350px;
+    width: 250px;
+    padding: 0;
+    margin: 0;
   }
 
   p {
@@ -45,6 +47,11 @@ export const SkillsSet = styled.div`
       background-color: ${({ theme }) => theme.colors.skillsBackgroundHover};
       color: ${({ theme }) => theme.colors.skillsTextHover};
       box-shadow: 2px 2px 10px 0px ${({ theme }) => theme.colors.skillsShadow};
+    }
+    @media only screen and (max-width: 950px) {
+      font-size: 16px;
+      margin: 5px;
+      padding: 5px;
     }
   }
 `;
