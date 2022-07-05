@@ -39,7 +39,7 @@ const Navbar = () => {
           </ScrollLink>
         </li>
 
-        <li className="personal stone-img">
+        <li className="git stone-img">
           <a rel="noreferrer" target="_blank" href="https://github.com/smikhu">
             <img alt="mind-stone" src={mind} />
             <figcaption className="stone-img-text">
@@ -47,7 +47,7 @@ const Navbar = () => {
             </figcaption>
           </a>
         </li>
-        <li className="stone-img">
+        <li className="linked stone-img">
           <a
             rel="noreferrer"
             target="_blank"

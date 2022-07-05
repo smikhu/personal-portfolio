@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { device } from "./MediaQueries";
 
 export const GlobalStyles = createGlobalStyle`
 * {
@@ -61,5 +62,7 @@ button {
     width: 350px;
     font-size: 18px;
     }
+
+
   }
 `;

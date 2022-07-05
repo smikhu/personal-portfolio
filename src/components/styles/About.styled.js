@@ -32,4 +32,6 @@ export const AboutInfo = styled.div`
     padding: 0;
     width: 350px;
   }
+
+
 `;

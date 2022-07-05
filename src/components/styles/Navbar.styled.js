@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "./MediaQueries";
 
 export const NavbarContainer = styled.nav`
   position: fixed;
@@ -14,17 +15,45 @@ export const NavbarContainer = styled.nav`
   text-transform: uppercase;
   text-align: center;
   transition: all 1s;
-  @media only screen and (max-width: 950px) {
-    padding: 0;
-    padding-top: 5px;
+
+  @media ${device.potrait} {
+    padding: 10px 10px;
+  }
+
+  @media ${device.tablet} {
+    padding: 10px 10px;
+  }
+
+  @media ${device.tabletS} {
+    padding: 5px 5px;
+  }
+
+  @media ${device.phone} {
+    padding: 3px;
   }
 
   img {
     width: 50px;
     height: 50px;
-    @media only screen and (max-width: 950px) {
+
+    @media ${device.potrait} {
+      width: 40px;
+      height: 40px;
+    }
+
+    @media ${device.tablet} {
+      width: 40px;
+      height: 40px;
+    }
+
+    @media ${device.tabletS} {
       width: 35px;
       height: 35px;
+    }
+
+    @media ${device.phone} {
+      width: 25px;
+      height: 25px;
     }
   }
 
@@ -37,14 +66,49 @@ export const NavbarContainer = styled.nav`
   ul li {
     margin-left: 50px;
     cursor: pointer;
-    @media only screen and (max-width: 950px) {
-      margin: 10px;
+
+    @media ${device.potrait} {
+      margin-left: 20px;
+      font-size: 15px;
+    }
+
+    @media ${device.tablet} {
+      margin-left: 20px;
+      font-size: 15px;
+    }
+
+    @media ${device.tabletS} {
+      margin-left: 15px;
+      font-size: 13px;
+    }
+
+    @media ${device.phone} {
+      margin-left: 5px;
       font-size: 12px;
     }
   }
 
-  .personal {
+  .git {
     margin-left: auto;
+  }
+
+  .linked {
+    margin-right: 50px;
+
+    @media ${device.potrait} {
+      margin-right: 20px;
+    }
+
+    @media ${device.tablet} {
+      margin-right: 20px;
+    }
+
+    @media ${device.tabletS} {
+      margin-right: 15px;
+    }
+    @media ${device.phone} {
+      margin-right: 5px;
+    }
   }
 
   .stone-img .stone-img-text {
@@ -61,9 +125,25 @@ export const NavbarContainer = styled.nav`
   .contact-icons {
     height: 25px;
     width: 25px;
-    @media only screen and (max-width: 950px) {
+
+    @media ${device.potrait} {
+      height: 23px;
+      width: 23px;
+    }
+
+    @media ${device.tablet} {
+      height: 23px;
+      width: 23px;
+    }
+
+    @media ${device.tabletS} {
       height: 20px;
       width: 20px;
+    }
+
+    @media ${device.phone} {
+      height: 15px;
+      width: 15px;
     }
   }
 `;
