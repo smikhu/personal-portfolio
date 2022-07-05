@@ -53,7 +53,7 @@ export const SkillsSet = styled.div`
       box-shadow: 2px 2px 10px 0px ${({ theme }) => theme.colors.skillsShadow};
     }
     @media only screen and (max-width: 950px) {
-      font-size: 16px;
+      font-size: 18px;
       margin: 10px;
       padding: 10px;
       &:hover {

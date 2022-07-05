@@ -191,7 +191,7 @@ export const mind = {
     skillsBorderHover: "white",
     skillsBackgroundHover: "yellow",
     skillsTextHover: "black",
-    skillsShadow: "white",
+    skillsShadow: "yellow",
     buttons: "#FFD300",
     buttonsBackgroundBefore: "black",
     buttonsHoverBackground: "yellow",
