@@ -58,11 +58,22 @@ button {
     width: 800px;
     text-align: center;
     font-size: 18px;
-    @media only screen and (max-width: 950px) {
-    width: 350px;
-    font-size: 18px;
+
+    @media ${device.potrait} {
+      width: 650px;
     }
 
+    @media ${device.tablet} {
+      width: 650px;
+    }
 
+    @media ${device.tabletS} {
+      width: 400px;
+    }
+
+    @media ${device.phone} {
+      width: 275px;
+      font-size: 16px;
+    }
   }
 `;
