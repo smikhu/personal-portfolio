@@ -22,7 +22,7 @@ const App = () => {
     }
   }, []);
 
-  const HandleThemeChange = (phase) => {
+  const phaseChange = (phase) => {
     setPhase(phase);
     localStorage.setItem("current-phase", JSON.stringify(phase));
   };
@@ -33,7 +33,7 @@ const App = () => {
 
       <Navbar />
 
-      <About HandleThemeChange={HandleThemeChange} />
+      <About phaseChange={phaseChange} />
 
       <Skills />
 

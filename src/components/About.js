@@ -40,17 +40,17 @@ const About = (props) => {
           imgWidth={900}
           onClick={(area) => {
             if (area.id === "soul") {
-              props.HandleThemeChange(soul);
+              props.phaseChange(soul);
             } else if (area.id === "reality") {
-              props.HandleThemeChange(reality);
+              props.phaseChange(reality);
             } else if (area.id === "space") {
-              props.HandleThemeChange(space);
+              props.phaseChange(space);
             } else if (area.id === "power") {
-              props.HandleThemeChange(power);
+              props.phaseChange(power);
             } else if (area.id === "time") {
-              props.HandleThemeChange(time);
+              props.phaseChange(time);
             } else if (area.id === "mind") {
-              props.HandleThemeChange(mind);
+              props.phaseChange(mind);
             }
           }}
         />
