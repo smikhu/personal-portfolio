@@ -76,9 +76,9 @@ button {
     }
 
     @media ${device.phone} {
-        height: 20px;
-        width: 65px;
-        font-size: 14px;
+        height: 25px;
+        width: 75px;
+        font-size: 16px;
     }
 }
 

@@ -2,12 +2,26 @@ import styled from "styled-components";
 import ironman from "../../images/ironman.png";
 import spiderman from "../../images/spiderman.png";
 import captainamerica from "../../images/captainamerica.png";
+import { device } from "./MediaQueries";
 
 export const Divider = styled.div`
   height: 75px;
   background: url(${ironman}) no-repeat;
   background-size: 80px 75px;
-  @media only screen and (max-width: 950px) {
+
+  @media ${device.potrait} {
+    margin-top: 50px;
+  }
+
+  @media ${device.tablet} {
+    margin-top: 50px;
+  }
+
+  @media ${device.tabletS} {
+    margin-top: 50px;
+  }
+
+  @media ${device.phone} {
     margin-top: 50px;
   }
 `;
@@ -26,7 +40,20 @@ export const Divider2 = styled.div`
   height: 90px;
   background: url(${spiderman}) no-repeat;
   background-size: 80px 75px;
-  @media only screen and (max-width: 950px) {
+
+  @media ${device.potrait} {
+    margin-top: 50px;
+  }
+
+  @media ${device.tablet} {
+    margin-top: 50px;
+  }
+
+  @media ${device.tabletS} {
+    margin-top: 50px;
+  }
+
+  @media ${device.phone} {
     margin-top: 50px;
   }
 `;

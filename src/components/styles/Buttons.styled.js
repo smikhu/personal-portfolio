@@ -1,12 +1,7 @@
 import styled from "styled-components";
 import { device } from "./MediaQueries";
 
-export const Buttons = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-`;
+export const Buttons = styled.div``;
 
 export const ContactButtons = styled.div`
   display: flex;
