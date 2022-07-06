@@ -84,7 +84,7 @@ export const NavbarContainer = styled.nav`
 
     @media ${device.phone} {
       margin-left: 5px;
-      font-size: 12px;
+      font-size: 10px;
     }
   }
 

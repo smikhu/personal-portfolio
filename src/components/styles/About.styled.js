@@ -4,6 +4,22 @@ import { device } from "./MediaQueries";
 export const AboutContainer = styled.div`
   background-color: ${({ theme }) => theme.colors.background};
   margin-top: 150px;
+
+  @media ${device.potrait} {
+    margin-top: 100px;
+  }
+
+  @media ${device.tablet} {
+    margin-top: 100px;
+  }
+
+  @media ${device.tabletS} {
+    margin-top: 80px;
+  }
+
+  @media ${device.phone} {
+    margin-top: 50px;
+  }
 `;
 
 export const AboutCollection = styled.div`
@@ -51,11 +67,6 @@ export const AboutInfo = styled.div`
   button {
     margin-top: 10px;
   }
-
-  /* @media only screen and (max-width: 970px) {
-    padding: 0;
-    width: 350px;
-  } */
 
   @media ${device.potrait} {
     width: 650px;
