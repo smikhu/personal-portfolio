@@ -56,6 +56,30 @@ button {
         color: ${({ theme }) => theme.colors.buttonsTextHover};
         transition: all .2s;
     }
+
+    @media ${device.potrait} {
+        height: 30px;
+        width: 90px;
+        font-size: 19px;
+    }
+
+    @media ${device.tablet} {
+        height: 30px;
+        width: 90px;
+        font-size: 19px;
+    }
+
+    @media ${device.tabletS} {
+        height: 25px;
+        width: 75px;
+        font-size: 16px;
+    }
+
+    @media ${device.phone} {
+        height: 20px;
+        width: 65px;
+        font-size: 14px;
+    }
 }
 
 .description {

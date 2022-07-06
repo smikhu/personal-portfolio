@@ -5,6 +5,7 @@ import {
   ProjectsRight,
 } from "./styles/Projects.styled";
 import { Header } from "./styles/Header.styled";
+import { Buttons } from "./styles/Buttons.styled";
 
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -54,20 +55,22 @@ const Projects = () => {
                 An app where you can search for your favorite superhero/villain
                 and find information and statistics on them.
               </p>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/smikhu/Amalgam-Comics"
-              >
-                <button>CODE</button>
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://wonderful-beaver-3ecebb.netlify.app/page1"
-              >
-                <button className="live">LIVE</button>
-              </a>
+              <Buttons>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/smikhu/Amalgam-Comics"
+                >
+                  <button>CODE</button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://wonderful-beaver-3ecebb.netlify.app/page1"
+                >
+                  <button>LIVE</button>
+                </a>
+              </Buttons>
             </ProjectsRight>
           </SwiperSlide>
 
@@ -84,20 +87,22 @@ const Projects = () => {
                 series. A matching game where you have a limited amount of lives
                 to match all the cards on the board.
               </p>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/smikhu/Gwent-Pairs"
-              >
-                <button>CODE</button>
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://smikhu.github.io/Gwent-Pairs/"
-              >
-                <button className="live">LIVE</button>
-              </a>
+              <Buttons>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/smikhu/Gwent-Pairs"
+                >
+                  <button>CODE</button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://smikhu.github.io/Gwent-Pairs/"
+                >
+                  <button>LIVE</button>
+                </a>
+              </Buttons>
             </ProjectsRight>
           </SwiperSlide>
 
@@ -114,20 +119,22 @@ const Projects = () => {
                 project was a group effort, my main contribution was the styling
                 of the pages.
               </p>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/SkipPharaoh/East-Coast-Boogie"
-              >
-                <button>CODE</button>
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://east-coast-boogie.herokuapp.com/"
-              >
-                <button className="live">LIVE</button>
-              </a>
+              <Buttons>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/SkipPharaoh/East-Coast-Boogie"
+                >
+                  <button>CODE</button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://east-coast-boogie.herokuapp.com/"
+                >
+                  <button>LIVE</button>
+                </a>
+              </Buttons>
             </ProjectsRight>
           </SwiperSlide>
 
@@ -145,20 +152,22 @@ const Projects = () => {
                 based on my favorite football club and the creation was inspired
                 by Chelsea unexpectedly winning the Champions League.
               </p>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/smikhu/Boys-In-Blue"
-              >
-                <button>CODE</button>
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://smikhu-project2.herokuapp.com/chelsea"
-              >
-                <button className="live">LIVE</button>
-              </a>
+              <Buttons>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/smikhu/Boys-In-Blue"
+                >
+                  <button>CODE</button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://smikhu-project2.herokuapp.com/chelsea"
+                >
+                  <button>LIVE</button>
+                </a>
+              </Buttons>
             </ProjectsRight>
           </SwiperSlide>
 
@@ -177,20 +186,22 @@ const Projects = () => {
                 list. You can also add your own movie to the list where other
                 users will be able to view it and favorite it as well.
               </p>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/smikhu/Pirates"
-              >
-                <button>CODE</button>
-              </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://pirates-project.herokuapp.com/accounts/login/?next=/"
-              >
-                <button className="live">LIVE</button>
-              </a>
+              <Buttons>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/smikhu/Pirates"
+                >
+                  <button>CODE</button>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://pirates-project.herokuapp.com/accounts/login/?next=/"
+                >
+                  <button>LIVE</button>
+                </a>
+              </Buttons>
             </ProjectsRight>
           </SwiperSlide>
         </Swiper>

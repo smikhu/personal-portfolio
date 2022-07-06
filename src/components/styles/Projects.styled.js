@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "./MediaQueries";
 
 export const ProjectsContainer = styled.div`
   margin-top: 100px;
@@ -7,9 +8,30 @@ export const ProjectsContainer = styled.div`
 export const ProjectsCollection = styled.div`
   .projects-split {
     display: flex;
-    padding: 50px;
-    @media only screen and (max-width: 950px) {
+    flex-direction: row;
+    padding: 100px;
+    width: 100%;
+
+    @media ${device.potrait} {
       flex-direction: column;
+      padding: 50px;
+    }
+
+    @media ${device.tablet} {
+      flex-direction: column;
+      padding: 50px;
+    }
+
+    @media ${device.tabletS} {
+      flex-direction: column;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    @media ${device.phone} {
+      flex-direction: column;
+      padding: 5px;
+      margin-top: 10px;
     }
   }
 
@@ -28,10 +50,7 @@ export const ProjectsCollection = styled.div`
 `;
 
 export const ProjectsLeft = styled.div`
-  width: 850px;
-  @media only screen and (max-width: 950px) {
-    width: 100%;
-  }
+  width: 100%;
 
   img {
     width: 100%;
@@ -44,14 +63,47 @@ export const ProjectsLeft = styled.div`
 
 export const ProjectsRight = styled.div`
   width: 650px;
-  margin-left: 15px;
-  @media only screen and (max-width: 950px) {
+  margin-left: 20px;
+
+  @media ${device.potrait} {
     width: 100%;
+    margin-left: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 25px;
+  }
+
+  @media ${device.tablet} {
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  @media ${device.tabletS} {
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+  }
+
+  @media ${device.phone} {
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 14px;
   }
 
   h3 {
@@ -60,18 +112,27 @@ export const ProjectsRight = styled.div`
 
   p {
     margin-top: 20px;
-    @media only screen and (max-width: 950px) {
+
+    @media ${device.potrait} {
       text-align: center;
     }
-  }
 
-  .live {
-    margin: 10px;
+    @media ${device.tablet} {
+      text-align: center;
+    }
+
+    @media ${device.tabletS} {
+      text-align: center;
+      font-size: 15px;
+    }
+
+    @media ${device.phone} {
+      text-align: center;
+      font-size: 13px;
+    }
   }
 
   button {
-    @media only screen and (max-width: 950px) {
-      margin-top: 15px;
-    }
+    margin: 25px 2px;
   }
 `;

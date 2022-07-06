@@ -1,4 +1,5 @@
-import { ContactContainer, ContactButtons } from "./styles/Contact.styled";
+import { ContactContainer } from "./styles/Contact.styled";
+import { ContactButtons } from "./styles/Buttons.styled";
 import { Header } from "./styles/Header.styled";
 
 import { AiFillLinkedin } from "react-icons/ai";
