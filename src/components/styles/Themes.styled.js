@@ -141,7 +141,7 @@ export const power = {
 export const time = {
   name: "time-phase",
   colors: {
-    background: "#abffc1",
+    background: "#c9ffcc",
     navbarBackground: "#006B3C",
     navbarText: "#e5e4e2",
     navbarBorder: "#e5e4e2",
@@ -157,7 +157,7 @@ export const time = {
     skillsTextHover: "#e5e4e2",
     skillsShadow: "black",
     buttons: "#006B3C",
-    buttonsBackgroundBefore: "#abffc1",
+    buttonsBackgroundBefore: "#c9ffcc",
     buttonsHoverBackground: "green",
     buttonsBorder: "#006B3C",
     buttonsTextBefore: "#006B3C",

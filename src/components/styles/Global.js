@@ -11,8 +11,9 @@ export const GlobalStyles = createGlobalStyle`
     transition: all 1s;
 }
 
-body {
+html, body {
     background-color: ${({ theme }) => theme.colors.background};
+    overflow-x: hidden;
 }
 
 h1 {

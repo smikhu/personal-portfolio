@@ -16,7 +16,7 @@ const Contact = () => {
         </p>
       </Header>
       <ContactButtons>
-        <a href="mailto: StevenMikhu@gmail.com">
+        <a href="mailto:StevenMikhu@gmail.com">
           <TbMailForward className="contact-icons" />
         </a>
 
