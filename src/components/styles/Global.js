@@ -21,6 +21,10 @@ h1 {
 
 h2 {
     color: ${({ theme }) => theme.colors.h2Header};
+
+  @media ${device.phone} {
+   font-size: 21px;
+  }
 }
 
 h3 {
