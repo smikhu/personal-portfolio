@@ -22,8 +22,13 @@ export const ContactButtons = styled.div`
     &:hover {
       color: ${({ theme }) => theme.colors.contactButtonsHover};
     }
-    @media only screen and (max-width: 950px) {
-      font-size: 50px;
+
+    @media ${device.tabletS} {
+      font-size: 72px;
+    }
+
+    @media ${device.phone} {
+      font-size: 60px;
     }
   }
 `;
