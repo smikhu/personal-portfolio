@@ -33,6 +33,8 @@ export const SkillsContainer = styled.div`
 export const SkillsCollection = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
   @media ${device.potrait} {
     flex-direction: row;
@@ -60,8 +62,9 @@ export const SkillsCollection = styled.div`
 `;
 
 export const SkillsSet = styled.div`
-  width: 50%;
+  width: 30%;
   margin: 50px;
+  
 
   @media ${device.potrait} {
     width: 50%;
