@@ -64,7 +64,6 @@ export const SkillsCollection = styled.div`
 export const SkillsSet = styled.div`
   width: 30%;
   margin: 50px;
-  
 
   @media ${device.potrait} {
     width: 50%;

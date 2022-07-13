@@ -14,7 +14,6 @@ export const NavbarContainer = styled.nav`
   color: ${({ theme }) => theme.colors.navbarText};
   text-transform: uppercase;
   text-align: center;
-  
 
   @media ${device.potrait} {
     padding: 10px 10px;

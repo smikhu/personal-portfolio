@@ -28,8 +28,8 @@ export const soul = {
     contactButtonsHover: "orangered",
     footerBackground: "#ff8b00",
     footerBorder: "black",
-    footerText: "#e5e4e2",
-    footerHover: "black",
+    footerText: "black",
+    footerHover: "#e5e4e2",
   },
 };
 
