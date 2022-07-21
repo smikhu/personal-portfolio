@@ -1,5 +1,5 @@
 <h1>Personal Portfolio</h1>
-<h4>My personal portfolio that displays my projects as well as my skills set</h4>
+<h4>My personal portfolio that displays my projects as well as my skills set.</h4>
 
 <h2>Technologies Used</h2>
 <ul>
