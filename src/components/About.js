@@ -57,16 +57,24 @@ const About = (props) => {
 
         <AboutInfo>
           <h1>STEVEN MIKHU</h1>
-          <h2>Junior Front End Developer</h2>
+          <h2>Junior Full Stack Developer</h2>
           <p>
-            I'm a junior full stack developer who loves working on the front end
-            side of things. I won't bore you with the usual "I love coding and
-            am super passionate" speech so if you like what you see, please
-            reach out. If you ARE looking for the boring details, check out my
-            resume below.
+            I am a junior full stack developer who loves working on the front
+            end side of things and creating memorable experiences for the user.
+            Beyond coding, I am your typical average person who like everyone
+            else... thought the last season of Game of Thrones was a major
+            disappointment. I won't bore you any further with details about me
+            so if you like what you see, please reach out. If you ARE looking
+            for the boring details, check out my resume below.
           </p>
 
-          <button>RESUME</button>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://docs.google.com/document/d/1Gj5KWD26wkyB1dF0VnjYRluhdwEGpZKb/edit"
+          >
+            <button>RESUME</button>
+          </a>
         </AboutInfo>
       </AboutCollection>
       <Divider></Divider>
