@@ -77,10 +77,10 @@ export const AboutInfo = styled.div`
   }
 
   @media ${device.tabletS} {
-    width: 525px;
+    width: 550px;
   }
 
   @media ${device.phone} {
-    width: 400px;
+    width: 375px;
   }
 `;

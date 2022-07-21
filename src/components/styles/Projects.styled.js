@@ -56,7 +56,7 @@ export const ProjectsLeft = styled.div`
     width: 100%;
     border-radius: 5px;
     border: 3px solid ${({ theme }) => theme.colors.imageBorder};
-    box-shadow: 2px 2px 10px 0px
+    box-shadow: 2px 2px 5px 0px
       ${({ theme }) => theme.colors.imageBorderShadow};
   }
 `;
