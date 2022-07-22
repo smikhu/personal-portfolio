@@ -148,7 +148,7 @@ const Projects = () => {
               <h3>Express, EJS, NodeJS</h3>
               <p>
                 Another early project that I created in my free time while
-                learning about Express, EJS and NodeJS during my bootcamp. It's
+                learning about Express, EJS and NodeJS during my boot camp. It's
                 based on my favorite football club and the creation was inspired
                 by Chelsea unexpectedly winning the Champions League.
               </p>
