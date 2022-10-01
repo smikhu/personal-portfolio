@@ -8,6 +8,7 @@ export const soul = {
     h1Header: "#ff8b00",
     h2Header: "#ff8b00",
     h3Header: "#ff8b00",
+    h5Header: "black",
     pHeader: "black",
     skillsHover: "orangered",
     swiper: "#ff8b00",
@@ -43,6 +44,7 @@ export const reality = {
     h1Header: "#B3210D",
     h2Header: "#B3210D",
     h3Header: "#B3210D",
+    h5Header: "black",
     pHeader: "black",
     skillsHover: "red",
     swiper: "#B3210D",
@@ -78,6 +80,7 @@ export const space = {
     h1Header: "#256794",
     h2Header: "#256794",
     h3Header: "#256794",
+    h5Header: "black",
     pHeader: "black",
     skillsHover: "#266EF6",
     swiper: "#256794",
@@ -113,6 +116,7 @@ export const power = {
     h1Header: "rebeccapurple",
     h2Header: "rebeccapurple",
     h3Header: "rebeccapurple",
+    h5Header: "#e5e4e2",
     pHeader: "#e5e4e2",
     skillsHover: "purple",
     swiper: "rebeccapurple",
@@ -148,6 +152,7 @@ export const time = {
     h1Header: "#006B3C",
     h2Header: "#006B3C",
     h3Header: "#006B3C",
+    h5Header: "black",
     pHeader: "black",
     skillsHover: "green",
     swiper: "#006B3C",
@@ -183,6 +188,7 @@ export const mind = {
     h1Header: "#FFD300",
     h2Header: "#FFD300",
     h3Header: "#FFD300",
+    h5Header: "#e5e4e2",
     pHeader: "#e5e4e2",
     skillsHover: "yellow",
     swiper: "#FFD300",
@@ -208,3 +214,6 @@ export const mind = {
     footerHover: "red",
   },
 };
+
+
+// #e5e4e2

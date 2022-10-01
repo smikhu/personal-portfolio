@@ -1,5 +1,6 @@
 import {
   AboutContainer,
+  Gauntlet,
   AboutInfo,
   AboutCollection,
 } from "./styles/About.styled";
@@ -33,27 +34,30 @@ const About = (props) => {
   return (
     <AboutContainer id="about">
       <AboutCollection>
-        <ImageMapper
-          src={gauntlet}
-          map={MAP}
-          width={300}
-          imgWidth={900}
-          onClick={(area) => {
-            if (area.id === "soul") {
-              props.phaseChange(soul);
-            } else if (area.id === "reality") {
-              props.phaseChange(reality);
-            } else if (area.id === "space") {
-              props.phaseChange(space);
-            } else if (area.id === "power") {
-              props.phaseChange(power);
-            } else if (area.id === "time") {
-              props.phaseChange(time);
-            } else if (area.id === "mind") {
-              props.phaseChange(mind);
-            }
-          }}
-        />
+        <Gauntlet>
+          <ImageMapper
+            src={gauntlet}
+            map={MAP}
+            width={300}
+            imgWidth={900}
+            onClick={(area) => {
+              if (area.id === "soul") {
+                props.phaseChange(soul);
+              } else if (area.id === "reality") {
+                props.phaseChange(reality);
+              } else if (area.id === "space") {
+                props.phaseChange(space);
+              } else if (area.id === "power") {
+                props.phaseChange(power);
+              } else if (area.id === "time") {
+                props.phaseChange(time);
+              } else if (area.id === "mind") {
+                props.phaseChange(mind);
+              }
+            }}
+          />
+          <h5>* Click the stones on the gauntlet to switch phases! *</h5>
+        </Gauntlet>
 
         <AboutInfo>
           <h1>STEVEN MIKHU</h1>

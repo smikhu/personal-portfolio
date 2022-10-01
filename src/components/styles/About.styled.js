@@ -52,6 +52,15 @@ export const AboutCollection = styled.div`
   }
 `;
 
+export const Gauntlet = styled.div`
+  h5 {
+    font-style: italic;
+    margin-bottom: 100px;
+    color: ${({ theme }) => theme.colors.h5Header};
+  }
+
+`;
+
 export const AboutInfo = styled.div`
   padding: 0px 50px;
   width: 650px;
