@@ -148,7 +148,7 @@ export const time = {
     background: "#c9ffcc",
     navbarBackground: "#006B3C",
     navbarText: "#e5e4e2",
-    navbarBorder: "#e5e4e2",
+    navbarBorder: "black",
     h1Header: "#006B3C",
     h2Header: "#006B3C",
     h3Header: "#006B3C",
@@ -172,7 +172,7 @@ export const time = {
     contactButtons: "#006B3C",
     contactButtonsHover: "green",
     footerBackground: "#006B3C",
-    footerBorder: "#e5e4e2",
+    footerBorder: "black",
     footerText: "#e5e4e2",
     footerHover: "black",
   },
@@ -214,6 +214,3 @@ export const mind = {
     footerHover: "red",
   },
 };
-
-
-// #e5e4e2
